@@ -13,9 +13,9 @@ string manualInputSymbol = Console.ReadLine();
 
 while (true)
 {
-
     if (manualInputSymbol == "q")
     {
+        Console.Write("[STOP] ");
         break;
     }
     // if(.....) = Как программе понять , что я ввожу число...? 
@@ -28,7 +28,7 @@ while (true)
         manualInputNumber = manualInputNumber / 10;
         if (manualInputNumber % 2 == 0) // проверка на четность
         {
-            Console.Write("[STOP]_ ");
+            Console.Write("[STOP] ");
             break;
         }
         else
